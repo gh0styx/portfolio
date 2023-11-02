@@ -93,7 +93,7 @@ export default function Intro() {
         </Link> */}
 
         <a
-          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
+          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-100 hover:scale-105 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
           //className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-100 hover:bg-gray-950 active:scale-105 transition"
           href="/CV.pdf"
           download
