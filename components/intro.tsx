@@ -18,9 +18,9 @@ export default function Intro() {
     <section
       ref={ref}
       id="home"
-      className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
+      className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem] "
     >
-      <div className="flex items-center justify-center">
+      <div className="flex items-center justify-center ">
         <div className="relative">
           <motion.div
             initial={{ opacity: 0, scale: 0 }}
@@ -56,12 +56,6 @@ export default function Intro() {
         <br />
         <span className="font-bold">I'm front-end developer</span>
 
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus
-          officiis quidem dolorum impedit numquam cum dicta, voluptatum omnis
-          deserunt! Amet, accusamus ab iusto nam esse quae vero recusandae
-          sapiente rerum.
-        </p>
         {/* <span className="font-bold">Hello, I'm Alexey.</span>
         <br></br> I'm a <span className="font-bold">front-end developer</span>
         <br />
@@ -95,7 +89,7 @@ export default function Intro() {
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-100 hover:scale-105 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
           //className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-100 hover:bg-gray-950 active:scale-105 transition"
-          href="/CV.pdf"
+          href="/CV.zip"
           download
         >
           Download CV{" "}
@@ -104,7 +98,7 @@ export default function Intro() {
 
         <a
           className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://linkedin.com"
+          href="https://www.linkedin.com/in/chermalykhprofile/"
           target="_blank"
         >
           <BsLinkedin />
@@ -112,7 +106,7 @@ export default function Intro() {
 
         <a
           className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://github.com"
+          href="https://github.com/1lexaa"
           target="_blank"
         >
           <FaGithubSquare />

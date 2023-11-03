@@ -19,23 +19,12 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore
-        architecto quasi autem! Fugiat enim libero necessitatibus nemo,
-        consequatur, iure accusantium dolor recusandae adipisci ipsa, deleniti
-        laboriosam soluta consequuntur? Sed, voluptas. Non vero voluptates
-        placeat facilis harum, aperiam doloremque, ab odio consequatur nobis
-        magni minima sed sint! Excepturi magnam, ullam, officia delectus
-        possimus ab sit est quam, quisquam sed temporibus aut. Ex sed unde dicta
-        totam, architecto, facere illo commodi dolorem nisi enim, rem assumenda
-        in quibusdam delectus veniam aliquid provident id. Quod fugit
-        perferendis fugiat cupiditate blanditiis quas est expedita? Voluptates
-        quibusdam eligendi ex quaerat blanditiis eius labore iure dolorem!
-        Perferendis error nulla aspernatur architecto aliquam ut consequuntur.
-        Officiis, aut quis? Ullam porro illo dolores quam! Vitae soluta ipsam
-        nostrum? Alias dolorem soluta reprehenderit, molestiae maiores facere
-        vitae, cupiditate amet, ratione voluptatibus distinctio! Ex fugit rem
-        iste corporis, atque possimus laudantium maxime maiores, eligendi amet
-        quos recusandae aliquid. A, dolorem.
+        I'm an aspiring frontend developer with a passion for creating beautiful
+        and interactive web applications. My university and self-study helped me
+        gain skills in HTML, CSS and JavaScript. I strive for constant growth
+        and development, and is ready to actively learn and apply new
+        technologies. My goal is to become an experienced developer and
+        contribute to creating amazing web applications.
       </p>
     </motion.section>
   );
