@@ -32,22 +32,36 @@ export const links = [
 
 export const projectsData = [
   {
-    title: "Project 1",
+    title: "techX",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit.   Amet, accusamus ab iusto nam esse quae vero recusandae sapiente rerum.",
+      "Diploma project. Tech shop with Next.js, MongoDB, shadcnUI, headlessUI, Redux.",
 
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+    tags: [
+      "React",
+      "Next.js",
+      "MongoDB",
+      "Tailwind",
+      "Prisma",
+      "shadcnUI",
+      "headlessUI",
+      "Redux",
+    ],
+    link: "https://github.com",
+    imageUrl: "/images/techX.png",
   },
   {
-    title: "Project 2",
-    description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit.   Amet, accusamus ab iusto nam esse quae vero recusandae sapiente rerum.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+    title: "Chat App",
+    description: "Chat App with ChatEngine. Realtime chat application.",
+    tags: ["React", "Vite", "JavaScript", "Express", "ChatEngine"],
+    link: "https://github.com/1lexaa/Chat-React-Node-.git",
+    imageUrl: "/images/chat.png",
   },
   {
     title: "Quiz App",
     description: "Team Work for STEP University. Quiz App for students.",
-    tags: ["React", "MongoDB", "CSS", "Node.js", "Express"],
+    tags: ["React", "MongoDB", "TypeScript", "CSS", "Node.js", "Express"],
+    link: "https://github.com/1lexaa/Quiz.git",
+    imageUrl: "/public/quiz.png",
   },
 ] as const;
 
