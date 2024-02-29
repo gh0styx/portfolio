@@ -45,10 +45,9 @@ export const projectsData = [
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
   },
   {
-    title: "Project 3",
-    description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit.   Amet, accusamus ab iusto nam esse quae vero recusandae sapiente rerum.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+    title: "Quiz App",
+    description: "Team Work for STEP University. Quiz App for students.",
+    tags: ["React", "MongoDB", "CSS", "Node.js", "Express"],
   },
 ] as const;
 
@@ -63,7 +62,8 @@ export const skillsData = [
   "Git",
   "Tailwind",
   "MongoDB",
-  "GraphQL",
+  "shadcnUI",
   "Express",
-  "Python",
+  "headlessUI",
+  "framer-motion",
 ] as const;

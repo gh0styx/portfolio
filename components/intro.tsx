@@ -41,9 +41,7 @@ export default function Intro() {
               delay: 0.1,
               duration: 0.7,
             }}
-          >
-            👋
-          </motion.span>
+          ></motion.span>
         </div>
       </div>
 
@@ -67,7 +65,7 @@ export default function Intro() {
       </motion.h1>
 
       <motion.div
-        className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
+        className="flex flex-row sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{
